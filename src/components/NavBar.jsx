@@ -30,7 +30,7 @@ const NavBar = () => {
 
             <a className="text-xl font-bold text-primary flex items-center" href="#hero">
                 <span className="relative z-10">
-                    <img className="w-14 h-14" src="../../public/mylogo.png"/>
+                    <img className="w-14 h-14" src="/mylogo.png" alt="my_logo"/>
                 </span>
             </a>
 
