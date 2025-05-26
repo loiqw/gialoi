@@ -1,3 +1,10 @@
+import c_logo from "../../src/assets/c.svg"
+import cpp_logo from "../../src/assets/cpp_logo.svg"
+import sql_logo from "../../src/assets/database.png"
+import html_logo from "../../src/assets/html.svg"
+import react_logo from "../../src/assets/react.svg"
+import tailwind_logo from "../../src/assets/tailwind.svg"
+import javascript_logo from "../../src/assets/javascript.svg"
 
 
 const Skills = () => {
@@ -18,7 +25,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img src="../../src/assets/react.svg"/>
+                            <img src={react_logo} alt="react_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">
@@ -36,7 +43,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img className="w-12 h-12" src="../../src/assets/tailwind.svg"/>
+                            <img className="w-12 h-12" src={tailwind_logo} alt="tailwind_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">
@@ -54,7 +61,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img className="w-10 h-10" src="../../src/assets/html.svg"/>
+                            <img className="w-10 h-10" src={html_logo} alt="html_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">
@@ -72,7 +79,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img className="w-10 h-10" src="../../src/assets/javascript.svg"/>
+                            <img className="w-10 h-10" src={javascript_logo} alt="javascript_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">
@@ -90,7 +97,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img className="w-10 h-10"src="../../src/assets/database.png"/>
+                            <img className="w-10 h-10"src={sql_logo} alt="sql_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">
@@ -108,7 +115,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img className="w-12 h-12" src="../../src/assets/c.svg"/>
+                            <img className="w-12 h-12" src={c_logo} alt="c_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">
@@ -126,7 +133,7 @@ const Skills = () => {
                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
 
                         <div className="m-auto"> 
-                            <img className="w-12 h-12" src="../../src/assets/cpp_logo.svg"/>
+                            <img className="w-12 h-12" src={cpp_logo} alt="cpp_logo"/>
                         </div>
 
                         <div className="flex flex-col items-center justify-center">

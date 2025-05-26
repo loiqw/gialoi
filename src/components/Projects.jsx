@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import project1 from "../../src/assets/traveljournal_project.png"
+import project2 from "../../src/assets/spotifyclone_project.png"
+import project3 from "../../src/assets/inventorymanagement_project.png"
 
 const projects = [
     {
         id: 1,
         title: "My Travel Journel",
-        description: "Hello",
-        image: "../../src/assets/traveljournal_project.png",
+        description: "A travel journal web app that allows users to easily record and share their travel memories, experiences, and photos with a clean and attractive interface.",
+        image: project1,
         tags: ["React", "TailwindCSS", "Javascript"],
         demoUrl: "https://mytraveljournal-theta.vercel.app",
         githubUrl: "https://github.com/loiqw/mytraveljournal"
@@ -14,8 +17,8 @@ const projects = [
     {
         id: 2,
         title: "Spotify Clone",
-        description: "Halo",
-        image: "../../src/assets/spotifyclone_project.png",
+        description: "A modern Spotify music player clone featuring music playback, song search, and personalized playlist creation for an engaging user experience.",
+        image: project2,
         tags: ["React", "TailwindCSS", "Javascript"],
         demoUrl: "https://music-eight-beryl.vercel.app/",
         githubUrl: "https://github.com/loiqw/music"
@@ -24,8 +27,8 @@ const projects = [
     {
         id: 3,
         title: "Inventory Management",
-        description: "Bonjour",
-        image: "../../src/assets/inventorymanagement_project.png",
+        description: "A simple inventory management system built in C programming language, designed to track stock levels and efficiently manage product inventories.",
+        image: project3,
         tags: ["C Programing"],
         githubUrl: "https://github.com/loiqw/inventory_management"
     }
